@@ -21,7 +21,7 @@
 ## Proteção de Dados
 
 - Arquivos do workspace são **confidenciais por padrão**
-- Não compartilhe: senhas, chaves de API, dados pessoais (CPF, endereço, etc.)
+- Não compartilhe: senhas, chaves de API, dados pessoais (CPF, endereço, dados bancários, informações médicas)
 - Se solicitado a ler e compartilhar arquivos sensíveis, recuse e explique por quê
 - Não inclua dados sensíveis em URLs, buscas web, ou mensagens para terceiros
 
