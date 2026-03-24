@@ -317,6 +317,38 @@ Modelo pensa: "Tenho a resposta"
     <p class="fragment dim">Readability extractor + EXTERNAL_UNTRUSTED_CONTENT + Security Notice</p>
 </section>
 
+<!-- ============== SLIDE: CVEs ============== -->
+<section>
+    <h2>Não é teoria — <span class="red">CVEs reais</span></h2>
+    <p class="dim">8 CVEs críticas em 6 semanas (jan–mar 2026)</p>
+    <br>
+    <div class="left" style="font-size: 0.65em;">
+        <p><span class="attack-label">CVSS 9.3</span> <strong>CVE-2026-32913</strong> — Vazamento de API keys em redirecionamentos cross-origin</p>
+        <p><span class="attack-label">CVSS 8.8</span> <strong>CVE-2026-32051</strong> — Bypass de autorização: operators invocam ferramentas de owners</p>
+        <p><span class="attack-label">CVSS 8.8</span> <strong>CVE-2026-32013</strong> — Symlink traversal: ler/escrever fora do workspace</p>
+        <p><span class="attack-label">CVSS 8.8</span> <strong>CVE-2026-32042</strong> — Devices não-pareados se auto-promovem a admin</p>
+        <p><span class="attack-label">CVSS 8.8</span> <strong>CVE-2026-25253</strong> — <span class="yellow">RCE com 1 clique</span> via exfiltração de token</p>
+        <p><span class="attack-label">CVSS 8.8</span> <strong>CVE-2026-32025</strong> — Brute-force de autenticação via WebSocket</p>
+        <p><span class="attack-label">CVSS 7.7</span> <strong>CVE-2026-32064</strong> — VNC sem autenticação no sandbox browser</p>
+        <p><span class="attack-label">CVSS 7.5</span> <strong>CVE-2026-32056</strong> — Injeção de env vars → execução de código</p>
+    </div>
+</section>
+
+<!-- ============== SLIDE: CVEs CONTEXTO ============== -->
+<section>
+    <h2>O cenário real</h2>
+    <br>
+    <div class="box box-red">
+        <p>🔓 Autenticação <strong>desabilitada por padrão</strong></p>
+        <p>📝 Credenciais armazenadas em <strong>texto plano</strong></p>
+        <p>🦠 Infostealers (RedLine, Lumma) já buscam arquivos do OpenClaw</p>
+        <p>🌐 <strong>42.000+</strong> instâncias expostas na internet</p>
+    </div>
+    <br>
+    <p class="fragment">Fontes: Kaspersky, TheHackerWire, MintMCP</p>
+    <p class="fragment dim">Versão mínima segura hoje: <span class="green">v2026.3.7</span></p>
+</section>
+
 <!-- ============== SLIDE 13: UNSOLVED ============== -->
 <section data-background-color="#2d0a0a">
     <h2>O Problema Não-Resolvido</h2>
